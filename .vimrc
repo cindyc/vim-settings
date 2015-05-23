@@ -165,3 +165,5 @@ augroup END
 " List of disabled pep8 warnings and errors:
 let g:khuno_ignore="E501"  " ,W293
 
+source /Users/cindy.cao/.vim/bundle/plugin/minibufexpl.vim
+autocmd VimEnter * MBEOpen
